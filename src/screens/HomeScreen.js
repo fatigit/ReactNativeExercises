@@ -37,6 +37,10 @@ const HomeScreen = ({navigation}) => {
         onPress={() => navigation.navigate('Square', {name: 'Square'})}
         title="Go to square screen"
       />
+      <Button
+        onPress={() => navigation.navigate('Counter2', {name: 'Counter2'})}
+        title="Go to counter2 screen"
+      />
     </SafeAreaView>
   );
 };
