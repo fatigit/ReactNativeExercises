@@ -12,6 +12,7 @@ import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
 import CounterScreen2 from './src/screens/CounterScreen2';
+import TextScreen from './src/screens/TextScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -68,6 +69,11 @@ const App = () => {
           name="Counter2"
           component={CounterScreen2}
           options={{title: 'Counter2 Screen'}}
+        />
+        <Stack.Screen
+          name="Text"
+          component={TextScreen}
+          options={{title: 'Text Screen'}}
         />
       </Stack.Navigator>
     </NavigationContainer>

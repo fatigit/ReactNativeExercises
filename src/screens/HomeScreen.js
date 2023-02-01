@@ -41,6 +41,10 @@ const HomeScreen = ({navigation}) => {
         onPress={() => navigation.navigate('Counter2', {name: 'Counter2'})}
         title="Go to counter2 screen"
       />
+      <Button
+        onPress={() => navigation.navigate('Text', {name: 'Text'})}
+        title="Go to text screen"
+      />
     </SafeAreaView>
   );
 };
