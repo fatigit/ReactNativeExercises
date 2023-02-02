@@ -45,6 +45,10 @@ const HomeScreen = ({navigation}) => {
         onPress={() => navigation.navigate('Text', {name: 'Text'})}
         title="Go to text screen"
       />
+      <Button 
+      onPress={() => navigation.navigate('Box', {name: 'Box'})}
+      title="Go to box screen"
+      />
     </SafeAreaView>
   );
 };
